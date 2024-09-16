@@ -1,0 +1,106 @@
+body {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#full {
+  background-image: url("IMG-20240904-WA0005.jpg");
+  width: 500px;
+  margin: 200px auto;
+  height: 700px;
+}
+h1 {
+  text-align: center;
+}
+.message {
+  color: red;
+}
+
+#form {
+  background-color: rgb(0, 0, 0, 0.5);
+  margin: 1px solid red;
+  margin: 35px;
+  border-radius: 30px;
+  height: 550px;
+  padding-top: 20px;
+}
+
+#form label {
+  color: beige;
+  font-size: 20px;
+}
+
+label:hover {
+  color: blue;
+}
+
+#form input {
+  width: 350px;
+  border-radius: 15px;
+  height: 30px;
+}
+
+button {
+  border-radius: 25px;
+  width: 200px;
+  margin: 10px 90px;
+  height: 40px;
+}
+
+#in {
+  margin: 20px 40px;
+}
+a {
+  text-decoration: none;
+  color: yellow;
+  margin: 0 155px;
+}
+
+#insta {
+  width: 35px;
+  border-radius: 10px;
+  position: relative;
+  top: 20px;
+  left: -50px;
+}
+
+#gmail {
+  width: 35px;
+  border-radius: 20px;
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
+
+#contact {
+  width: 35px;
+  border-radius: 20px;
+  position: relative;
+  top: -60px;
+  left: 60px;
+}
+
+input:focus {
+  background-color: antiquewhite;
+}
+
+button:focus {
+  background-color: peachpuff;
+}
+
+button:hover {
+  background-color: green;
+}
+/* .inputgroup.success input {
+  border-color: green;
+}
+.inputgroup.error input {
+  border-color: rgb(206, 67, 67);
+  color: brown;
+} */
+.error {
+  color: red;
+}
+@media (max-width: 15em) {
+  #full {
+    height: 100vh;
+  }
+}
